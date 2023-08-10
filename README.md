@@ -1,6 +1,7 @@
 # [`react-meter-chart`](https://www.npmjs.com/package/react-meter-chart)
 
 ![CI](https://github.com/morganney/react-meter-chart/actions/workflows/ci.yml/badge.svg)
+[![codecov](https://codecov.io/gh/morganney/react-meter-chart/branch/main/graph/badge.svg?token=D81HI92YGO)](https://codecov.io/gh/morganney/react-meter-chart)
 [![NPM version](https://img.shields.io/npm/v/react-meter-chart.svg)](https://www.npmjs.com/package/react-meter-chart)
 
 React component to render an element very much like an [HTML &lt;meter&gt; element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter). Basically a reason to improve the [answer from a stackoverflow question](https://stackoverflow.com/questions/73961347/range-line-component-in-react/73999120#73999120).
@@ -57,4 +58,4 @@ type Size = 'small' | 'medium' | 'large'
 
 ## Examples
 
-(TODO)
+Check out the demo at https://morganney.github.io/react-meter-chart.
