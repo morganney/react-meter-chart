@@ -1,4 +1,0 @@
-*.tgz
-dist
-node_modules
-coverage
