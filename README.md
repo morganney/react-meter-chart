@@ -4,6 +4,8 @@
 [![codecov](https://codecov.io/gh/morganney/react-meter-chart/branch/main/graph/badge.svg?token=D81HI92YGO)](https://codecov.io/gh/morganney/react-meter-chart)
 [![NPM version](https://img.shields.io/npm/v/react-meter-chart.svg)](https://www.npmjs.com/package/react-meter-chart)
 
+<img src="./react-meter-chart.png" alt="Meter chart react component" width="500" />
+
 React component to render an element very much like an [HTML &lt;meter&gt; element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter). Basically a reason to improve the [answer from a stackoverflow question](https://stackoverflow.com/questions/73961347/range-line-component-in-react/73999120#73999120).
 
 ## Getting Started
@@ -31,9 +33,9 @@ root.render(
 )
 ```
 
-## Options
+## Props
 
-It accepts options very much like the HTML &lt;meter&gt; element.
+It accepts props very much like the HTML &lt;meter&gt; element attributes.
 
 ```ts
 interface MeterChartProps {
