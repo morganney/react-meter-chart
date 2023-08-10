@@ -35,7 +35,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.2
         with:
-          branch: main
+          branch: gh-pages
           folder: dist
   fail:
     runs-on: ubuntu-latest
