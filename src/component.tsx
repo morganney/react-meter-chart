@@ -198,4 +198,4 @@ const MeterChart: FC<MeterChartProps> = ({
 }
 
 export { MeterChart }
-export type { MeterChartProps, Size }
+export type { MeterChartProps, Size, Colors }
