@@ -82,11 +82,9 @@ You can skip a build step completely by placing this inside of your Vite project
 
 Now navigate to http://localhost:4173.
 
-### Vite build
+### Build
 
-To use it with a Vite build just import the component from this package.
-
-For instance, using a new Vite project, create an `src/App.tsx` file:
+To use it with a transpiler or bundler just import the component from this package. For instance, to use it with a new Vite project after [scaffolding](https://vitejs.dev/guide/#scaffolding-your-first-vite-project), change the file `src/App.tsx`:
 
 **src/App.tsx**
 
@@ -110,7 +108,7 @@ Also, remove the default styles from `src/main.tsx`:
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-- import './index.css'
+-import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
