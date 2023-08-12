@@ -8,7 +8,7 @@ React component to render an element very much like an [HTML &lt;meter&gt;](http
 
 <img src="./react-meter-chart.png" alt="Meter chart react component" width="425" />
 
-https://morganney.github.io/react-meter-chart.
+See the [demo](https://morganney.github.io/react-meter-chart).
 
 ## Getting Started
 
