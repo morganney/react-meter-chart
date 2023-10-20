@@ -1,6 +1,6 @@
 {
   "name": "react-meter-chart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for linearly charting a value against a target range bounded by a max and min, much like an HTML meter element.",
   "type": "module",
   "main": "./dist/component.mjs",
@@ -54,11 +54,11 @@
     "jsdom": "^22.1.0",
     "prettier": "^3.0.1",
     "styled-components": "^5.3.11",
-    "tsx": "^3.12.7",
+    "tsx": "^3.14.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
-    "vite-plugin-specifier": "^1.0.0-alpha.6",
-    "vitest": "^0.34.1"
+    "vite-plugin-specifier": "^1.0.0-rc.2",
+    "vitest": "^0.34.6"
   },
   "peerDependencies": {
     "react": ">=17.0.0",
