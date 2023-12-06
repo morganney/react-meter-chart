@@ -50,6 +50,7 @@ export default defineConfig(({ mode }) => {
       include: ['test/*.{ts,tsx}'],
       coverage: {
         provider: 'v8',
+        include: ['src'],
         reporter: ['text', 'text-summary', 'clover', 'json', 'lcov'],
       },
     },
