@@ -58,7 +58,7 @@ const C = (l, a) => ({ ...l, ...a }), f = () => {
       value: l.low,
       name: "low",
       min: l.min ?? 0,
-      max: l.max ?? 100 - 1,
+      max: l.max ?? 99,
       onChange: t
     }
   )), /* @__PURE__ */ e.createElement("label", null, /* @__PURE__ */ e.createElement("code", null, "high"), /* @__PURE__ */ e.createElement(
@@ -67,7 +67,7 @@ const C = (l, a) => ({ ...l, ...a }), f = () => {
       type: "number",
       value: l.high,
       name: "high",
-      min: l.min ?? 0 + 1,
+      min: l.min ?? 1,
       max: l.max ?? 100,
       onChange: t
     }
