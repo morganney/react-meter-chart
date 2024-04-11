@@ -2,8 +2,6 @@ import e, { useReducer as x, useCallback as m } from "react";
 import y from "react-dom";
 import { MeterChart as r } from "./component.mjs";
 import { defaultColors as w } from "./colors.mjs";
-import "styled-components";
-import "./sizing.mjs";
 var d, E = y;
 d = E.createRoot, E.hydrateRoot;
 const C = (l, a) => ({ ...l, ...a }), f = () => {
