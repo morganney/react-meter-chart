@@ -19,9 +19,10 @@ interface MeterChartProps {
   colors?: Colors
   showBoundsLabel?: boolean
 }
+type MeterProps = React.HTMLAttributes<HTMLDivElement>
 
 const { useState, useCallback, useMemo } = React
-const Meter = styled.div`
+const Meter = styled.div<MeterProps>`
   display: flex;
   align-items: center;
   gap: 15px;
@@ -31,6 +32,7 @@ const Value = styled.span<{
   $showLabel: boolean
   $scale: number
   $size: Size
+  children?: React.ReactNode
 }>`
   display: flex;
   align-items: center;
@@ -59,6 +61,7 @@ const Range = styled.span<{
   $scale: number
   $colors: Colors
   $showRangeLabels: boolean
+  children?: React.ReactNode
 }>`
   display: flex;
   align-items: center;
