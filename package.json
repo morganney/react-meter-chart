@@ -65,7 +65,7 @@
   "peerDependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "styled-components": ">=6"
+    "styled-components": ">=5 <7"
   },
   "keywords": [
     "react",
