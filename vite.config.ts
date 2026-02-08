@@ -14,7 +14,7 @@ const getConfig = (mode: string): UserConfig => {
         entry: ['src/component.tsx', 'src/colors.ts', 'src/sizing.ts', 'demo.tsx'],
       },
       rollupOptions: {
-        external: ['react', 'react-dom', 'styled-components'],
+        external: ['react', 'react-dom', 'react-dom/client', 'styled-components'],
       },
       emptyOutDir: false,
     },
